@@ -5,6 +5,10 @@
 	src: url('../fonts/netto_ot.ttf');
 }
 
+*{
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -20,6 +24,10 @@ body {
 
 a {
   text-decoration: none;
+}
+
+p {
+  margin: 0;
 }
 
 /*-----------------LANDING PAGE----------------*/
@@ -57,6 +65,7 @@ a {
   text-align: center;
   border-radius: 5px;
   box-shadow: 2px 2px 2px #888888;
+  margin: 20px;
 }
 
 .btn-green {
@@ -81,6 +90,30 @@ a {
 
 .btn-pink {
   background-color: #ff9999;
+}
+
+.btn-lg {
+  padding: 10px;
+  display: table-cell;
+  vertical-align: middle;
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 120px;
+  height: 80px;
+}
+
+.button-div {
+  display: inline-block;
+  padding: 10px;
+}
+
+.buttons {
+  max-width: 600px;
+  margin: auto;
+}
+
+.cloud-heading {
+  margin-top: -40px;
 }
 
 .cart-nav {
