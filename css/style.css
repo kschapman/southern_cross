@@ -37,7 +37,7 @@ p {
 }
 
 .home-logo {
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .start-order{
@@ -110,6 +110,11 @@ p {
 .buttons {
   max-width: 600px;
   margin: auto;
+}
+
+.drinks {
+  max-width: 450px;
+  text-align: -webkit-center;
 }
 
 .cloud-heading {
