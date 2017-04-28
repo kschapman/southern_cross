@@ -109,7 +109,8 @@ p {
 
 .buttons {
   max-width: 600px;
-  margin: auto;
+	margin: auto;
+  text-align: -webkit-center;
 }
 
 .drinks {
