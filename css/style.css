@@ -38,7 +38,7 @@ p {
 }
 
 .home-logo {
-  margin-top: 80px;
+  margin-top: 15px;
 }
 
 .start-order{
@@ -49,6 +49,7 @@ p {
   width: 170px;
   text-align: center;
   border-radius: 5px;
+	margin-top: 10px;
 }
 
 .start-order:hover {
@@ -140,10 +141,14 @@ p {
   float: left;
 }
 
-
-/*purple: #685a6e;
+/*
+purple: #685a6e;
 red: #ba5549;
 blue: #00adad;
 green: #aabc72;
 orange: #f19c27;
-pink: #ff9999;*/
+pink: #ff9999;
+key-red :
+key-green:
+key-orange:
+*/
