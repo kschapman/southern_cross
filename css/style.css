@@ -144,20 +144,28 @@ p {
 /*----------------ITEMS---------------*/
 
 .item-container{
-	max-width: 600px;
+	max-width: 680px;
 	margin: auto;
   text-align: -webkit-center;
+}
+
+.item-container::after{
+	content: '';
+	display: block;
+	clear: both;
 }
 
 .item-box {
 	background-color: white;
 	width: 31%;
+	height: 200px;
 	float: left;
 	margin: 1%;
 	padding: 1%;
 	padding-top: 12px;
 	padding-bottom: 12px;
 	border-radius: 5%;
+	position: relative;
 }
 
 .item-name {
@@ -187,6 +195,8 @@ p {
 	padding: 2%;
 	border: 2px solid #ba5549;
 	clear: both;
+	position: absolute;
+	bottom: 10px;
 }
 
 .btn-text {
@@ -251,7 +261,19 @@ p {
 @media only screen and (max-width: 618px) {
     .item-box {
         width: 45%;
+				height: 190px;
     }
+}
+
+@media only screen and (max-width: 480px) {
+    .item-box {
+        width: 75%;
+				height: 175px;
+    }
+
+		.btn-add {
+			width: 97%;
+		}
 }
 
 /*
