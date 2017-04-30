@@ -141,14 +141,74 @@ p {
   float: left;
 }
 
+/*----------------ITEMS---------------*/
+
+.item-container{
+	max-width: 600px;
+	margin: auto;
+  text-align: -webkit-center;
+}
+
+.item-box {
+	background-color: white;
+	width: 33%;
+}
+
+.item-name {
+	color: #ba5549;
+	text-align: left;
+	padding: 2px;
+	margin-left: 5px;
+}
+
+.item-price {
+	color: #ba5549;
+	text-align: left;
+	padding: 2px;
+	margin-left: 5px;
+}
+
+.item-info {
+	text-align: left;
+	padding: 2px;
+	margin-left: 5px;
+	font-size: 13px;
+}
+
+.btn-add {
+	width: 93%;
+	height: 45px;
+	padding: 2%;
+	border: 2px solid #ba5549;
+}
+
+.circle {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	color: black;
+}
+
+.circle-orange {
+
+}
+
+.circle-red {
+
+}
+
+.circle-green {
+
+}
+
 /*
+Colors:
 purple: #685a6e;
 red: #ba5549;
 blue: #00adad;
 green: #aabc72;
 orange: #f19c27;
 pink: #ff9999;
-key-red :
-key-green:
-key-orange:
+
+#F29D2A
 */
