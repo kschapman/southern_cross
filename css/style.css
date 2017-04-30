@@ -151,7 +151,13 @@ p {
 
 .item-box {
 	background-color: white;
-	width: 33%;
+	width: 31%;
+	float: left;
+	margin: 1%;
+	padding: 1%;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	border-radius: 5%;
 }
 
 .item-name {
@@ -180,25 +186,72 @@ p {
 	height: 45px;
 	padding: 2%;
 	border: 2px solid #ba5549;
+	clear: both;
+}
+
+.btn-text {
+	color: #ba5549;
+	margin-top: 6px;
 }
 
 .circle {
-	width: 10px;
-	height: 10px;
+	width: 16px;
+	height: 16px;
 	border-radius: 50%;
-	color: black;
+	float: left;
+	margin-left: 5px;
+  margin-bottom: 5px;
 }
 
 .circle-orange {
-
+	background-color: #f19c27;
 }
 
 .circle-red {
-
+	background-color: #ba5549;
 }
 
 .circle-green {
+	background: #aabc72;
+}
 
+.hollow-orange {
+	border: 1px solid #f19c27;
+}
+
+.hollow-red {
+	border: 1px solid #ba5549;
+}
+
+.hollow-green {
+	border: 1px solid #aabc72;
+}
+
+.inner-circle {
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	float: left;
+	margin-left: 3px;
+	margin-top: 3px;
+}
+
+.inner-circle-orange {
+	background-color: #f19c27;
+}
+
+.inner-circle-red {
+	background-color: #ba5549;
+}
+
+.inner-circle-green {
+	background-color: #aabc72;
+}
+
+@media only screen and (max-width: 618px) {
+    .item-box {
+        width: 45%;
+    }
 }
 
 /*
