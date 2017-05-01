@@ -259,21 +259,29 @@ p {
 }
 
 @media only screen and (max-width: 618px) {
-    .item-box {
-        width: 45%;
-				height: 190px;
-    }
+	.item-container {
+		width: 100%;
+		margin: 2%;
+	}
+
+	.item-box {
+    width: 46%;
+		height: 190px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
-    .item-box {
-        width: 75%;
-				height: 175px;
-    }
+  .item-box {
+		width: 68%;
+		height: 175px;
+		margin-left: 15%;
+		margin-right: 15%;
+		margin-bottom: 20px;
+  }
 
-		.btn-add {
-			width: 97%;
-		}
+	.btn-add {
+		width: 97%;
+	}
 }
 
 /*
