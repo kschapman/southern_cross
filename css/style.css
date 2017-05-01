@@ -190,6 +190,32 @@ p {
 	text-align: center;
 }
 
+/*----------------KEY---------------*/
+
+.key {
+	background-color: white;
+  height: 30px;
+  width: 96%;
+  margin-right: 1%;
+  border-radius: 5%;
+}
+
+.key-text {
+	font-size: 12px;
+	text-align: left;
+	margin-left: 27px;
+	padding-top: 4px;
+}
+
+.key-box {
+	float: left;
+	margin-top: 5px;
+}
+
+.key-content {
+	height: 100%;
+}
+
 /*----------------ITEMS---------------*/
 
 .item-container{
