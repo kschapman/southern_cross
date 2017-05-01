@@ -261,6 +261,10 @@ p {
 	position: relative;
 }
 
+.tiny {
+	height: 150px;
+}
+
 .small {
 	height: 170px;
 }
