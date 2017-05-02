@@ -141,6 +141,23 @@ p {
   float: left;
 }
 
+/*----------------WAITER---------------*/
+
+.waiter {
+}
+
+.waiter-btn {
+	width: 100px;
+	border-radius: 10%;
+	background-color: white;
+}
+
+.waiter-text {
+	text-align: center;
+	color: #ba5549;
+	padding: 8px;
+}
+
 /*----------------CART---------------*/
 
 #cart {
@@ -199,6 +216,7 @@ p {
 	padding: 5px;
 	margin-right: 1%;
 	border-radius: 20px;
+	margin-top: 7px;
 }
 
 .key-text {
