@@ -20,7 +20,7 @@
       <a href="main-menu.html">
         <img src="img/logo.png" alt="Southern Cross logo" class="cloud-heading">
       </a>
-      <div class="waiter">
+      <div class="waiter-item">
         <div class="waiter-btn">
           <p class="waiter-text">CALL WAITER</p>
         </div>
@@ -30,6 +30,14 @@
     <div id="cart">
       <img src="img/exit.png" alt="Exit" class="exit">
       <h3 class="your-order">Your Order</h3>
+      <ul id="Cart">
+
+      </ul>
+      <hr>
+      <ul id="dummyCart">
+        <li>write in here what you want it to look</li>
+        <li>1 x Product 1 at $12.00each - <img src="remove"></li>
+      </ul>
       <div class="btn-send">
         <p class="btn-send-text">Send order through</p>
       </div>
@@ -79,12 +87,8 @@
       </div>
 
       <div class="item-box large">
-        <div class="item-name">
-          <p>FREE-RANGE EGGS ON TOAST</p>
-        </div>
-        <div class="item-price">
-          <p>$9.00</p>
-        </div>
+          <p class="item-name">FREE-RANGE EGGS ON TOAST</p>
+          <p class="item-price">$9.00</p>
         <div class="item-info">
           <p>Free-range eggs cooked how you like them with your choice of multigrain or ciabatta.</p>
         </div>
@@ -96,18 +100,14 @@
             </div>
           </div>
         </div>
-        <div class="btn-add free-range">
+        <div class="btn-add add">
           <p class="btn-text">+ Add</p>
         </div>
       </div>
 
       <div class="item-box large">
-        <div class="item-name">
-          <p>BIG BREAKFAST</p>
-        </div>
-        <div class="item-price">
-          <p>$22.50</p>
-        </div>
+          <p class="item-name">BIG BREAKFAST</p>
+          <p class="item-price">$22.50</p>
         <div class="item-info">
           <p>Free-range eggs on toast with bacon, chorizo, herb roasted tomato, portobello mushroom & hashbrowns <em>- no substitutions.</em></p>
         </div>
@@ -117,18 +117,14 @@
             </div>
           </div>
         </div>
-        <div class="btn-add">
+        <div class="btn-add add">
           <p class="btn-text">+ Add</p>
         </div>
       </div>
 
       <div class="item-box large">
-        <div class="item-name">
-          <p>BUDDHA BOWL</p>
-        </div>
-        <div class="item-price">
-          <p>$17.00</p>
-        </div>
+          <p class="item-name">BUDDHA BOWL</p>
+          <p class="item-price">$17.00</p>
         <div class="item-info">
           <p>Roasted spiced carrot &amp; mint salad, wild rice pilaf with cranberry, toasted chickpeas, spinach leaves, topped with a creamy almond dressing.</p>
         </div>
@@ -144,18 +140,14 @@
             </div>
           </div>
         </div>
-        <div class="btn-add">
+        <div class="btn-add add">
           <p class="btn-text">+ Add</p>
         </div>
       </div>
 
       <div class="item-box large">
-        <div class="item-name">
-          <p>SALMON POKE BOWL</p>
-        </div>
-        <div class="item-price">
-          <p>$25.00</p>
-        </div>
+          <p class="item-name">SALMON POKE BOWL</p>
+          <p class="item-price">$25.00</p>
         <div class="item-info">
           <p>Spicy marinated raw salmon or marinated tofu, avocado, carrot noodles, pickled cucumber, sticky rice, melon & a sesame soy chilli sauce.</p>
         </div>
@@ -171,18 +163,14 @@
             </div>
           </div>
         </div>
-        <div class="btn-add">
+        <div class="btn-add add">
           <p class="btn-text">+ Add</p>
         </div>
       </div>
 
       <div class="item-box large">
-        <div class="item-name">
-          <p>SMASHED AVOCADO &amp; BEETROOT HUMMUS</p>
-        </div>
-        <div class="item-price">
-          <p>$16.00</p>
-        </div>
+          <p class="item-name">SMASHED AVOCADO &amp; BEETROOT HUMMUS</p>
+          <p class="item-price">$16.00</p>
         <div class="item-info">
           <p>Smashed avocado on toast topped with feta and homemade beetroot hummus topped with dukkah.</p>
         </div>
@@ -198,18 +186,14 @@
             </div>
           </div>
         </div>
-        <div class="btn-add">
+        <div class="btn-add add">
           <p class="btn-text">+ Add</p>
         </div>
       </div>
 
       <div class="item-box large">
-        <div class="item-name">
-          <p>HALLOUMI BURGER</p>
-        </div>
-        <div class="item-price">
-          <p>$21.00</p>
-        </div>
+          <p class="item-name">HALLOUMI BURGER</p>
+          <p class="item-price">$21.00</p>
         <div class="item-info">
           <p>Garlic &amp; thyme roasted portobello mushroom, Zany Zeus halloumi, homemade chilli jam, lettuce, tomato, served with fries.</p>
         </div>
@@ -225,18 +209,14 @@
             </div>
           </div>
         </div>
-        <div class="btn-add">
+        <div class="btn-add add">
           <p class="btn-text">+ Add</p>
         </div>
       </div>
 
       <div class="item-box large">
-        <div class="item-name">
-          <p>EGGS BENEDICT OR FLORENTINE</p>
-        </div>
-        <div class="item-price">
-          <p>$18.00</p>
-        </div>
+          <p class="item-name">EGGS BENEDICT OR FLORENTINE</p>
+          <p class="item-price">$18.00</p>
         <div class="item-info">
           <p>Free-range poached eggs on English muffins with homemade hollandaise & served with your choice of spinach <u>or</u> bacon.</p>
         </div>
@@ -256,29 +236,21 @@
       </div>
 
       <div class="item-box large">
-        <div class="item-name">
-          <p>CROSS BURGER</p>
-        </div>
-        <div class="item-price">
-          <p>$21.00</p>
-        </div>
+          <p class="item-name">CROSS BURGER</p>
+          <p class="item-price">$21.00</p>
         <div class="item-info">
           <p>Premium house-ground beef, melted cheese, tomato, beetroot, lettuce, special sauce, served with fries.</p>
         </div>
         <div class="item-options">
         </div>
-        <div class="btn-add">
+        <div class="btn-add add">
           <p class="btn-text">+ Add</p>
         </div>
       </div>
 
       <div class="item-box large">
-        <div class="item-name">
-          <p>PORTOBELLO BENEDICT</p>
-        </div>
-        <div class="item-price">
-          <p>$18.00</p>
-        </div>
+          <p class="item-name">PORTOBELLO BENEDICT</p>
+          <p class="item-price">$18.00</p>
         <div class="item-info">
           <p>Sesame seed avocado balls on English muffins withportobello mushrooms, wilted spinach & homemade cashew hollandaise.</p>
         </div>
@@ -292,18 +264,14 @@
             </div>
           </div>
         </div>
-        <div class="btn-add">
+        <div class="btn-add add">
           <p class="btn-text">+ Add</p>
         </div>
       </div>
 
       <div class="item-box large">
-        <div class="item-name">
-          <p>BREAKFAST STONEGRILL DINING</p>
-        </div>
-        <div class="item-price">
-          <p>$24.00</p>
-        </div>
+          <p class="item-name">BREAKFAST STONEGRILL DINING</p>
+          <p class="item-price">$24.00</p>
         <div class="item-info">
           <p>100g prime beef steak, chorizo, portobello mushroom &amp; caramelised onions served with herb potatoes, salad &amp; hollandaise.</p>
         </div>
@@ -311,18 +279,14 @@
           <div class="circle circle-red">
           </div>
         </div>
-        <div class="btn-add">
+        <div class="btn-add add">
           <p class="btn-text">+ Add</p>
         </div>
       </div>
 
       <div class="item-box large">
-        <div class="item-name">
-          <p>KEDGEREE OR VEGEREE</p>
-        </div>
-        <div class="item-price">
-          <p>$18.00</p>
-        </div>
+          <p class="item-name">KEDGEREE OR VEGEREE</p>
+          <p class="item-price">$18.00</p>
         <div class="item-info">
           <p>Manuka smoked fish or chargrilled vegetables on spiced brown rice, tomatoes, spinach, toasted almonds &amp; coriander, topped with a free-range poached egg (marinated tofu available).</p>
         </div>
@@ -336,18 +300,14 @@
             </div>
           </div>
         </div>
-        <div class="btn-add">
+        <div class="btn-add add">
           <p class="btn-text">+ Add</p>
         </div>
       </div>
 
       <div class="item-box large">
-        <div class="item-name">
-          <p>ZUCCHINI &amp; CORN FRITTERS</p>
-        </div>
-        <div class="item-price">
-          <p>$18.50</p>
-        </div>
+          <p class="item-name">ZUCCHINI &amp; CORN FRITTERS</p>
+          <p class="item-price">$18.50</p>
         <div class="item-info">
           <p>Served with Zany Zeus halloumi &amp; fresh tomato salsa.</p>
         </div>
@@ -355,18 +315,14 @@
           <div class="circle circle-orange">
           </div>
         </div>
-        <div class="btn-add">
+        <div class="btn-add add">
           <p class="btn-text">+ Add</p>
         </div>
       </div>
 
       <div class="item-box large">
-        <div class="item-name">
-          <p>GREEN SHAKSHUKA</p>
-        </div>
-        <div class="item-price">
-          <p>$16.00</p>
-        </div>
+          <p class="item-name">GREEN SHAKSHUKA</p>
+          <p class="item-price">$16.00</p>
         <div class="item-info">
           <p>Your choice of free-range egg or marinated tofu baked in garlic &amp; sumac spiced seasonal greens.</p>
         </div>
@@ -384,18 +340,14 @@
             </div>
           </div>
         </div>
-        <div class="btn-add">
+        <div class="btn-add add">
           <p class="btn-text">+ Add</p>
         </div>
       </div>
 
       <div class="item-box large">
-        <div class="item-name">
-          <p>CINNAMON SUGAR WAFFLE</p>
-        </div>
-        <div class="item-price">
-          <p>$16.50</p>
-        </div>
+          <p class="item-name">CINNAMON SUGAR WAFFLE</p>
+          <p class="item-price">$16.50</p>
         <div class="item-info">
           <p>Homemade waffle tossed in cinnamon sugar, served with bacon, banana, mascarpone &amp; maple syrup.</p>
         </div>
@@ -405,7 +357,7 @@
             </div>
           </div>
         </div>
-        <div class="btn-add">
+        <div class="btn-add add">
           <p class="btn-text">+ Add</p>
         </div>
       </div>
@@ -415,5 +367,6 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/CartFunction.js"></script>
   </body>
 </html>

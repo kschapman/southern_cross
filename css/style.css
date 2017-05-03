@@ -121,12 +121,12 @@ p {
 .buttons {
   max-width: 600px;
 	margin: auto;
-  text-align: -webkit-center;
+  text-align: center;
 }
 
 .drinks {
   max-width: 450px;
-  text-align: -webkit-center;
+  text-align: center;
 }
 
 .cloud-heading {
@@ -150,6 +150,10 @@ p {
   float: left;
 }
 
+.order-btn {
+
+}
+
 /*----------------WAITER---------------*/
 
 .heading-btns {
@@ -158,6 +162,10 @@ p {
 .waiter {
 	display: inline-block;
 	clear: both;
+}
+
+.waiter-item {
+	display: block;
 }
 
 .waiter-btn {
@@ -302,10 +310,10 @@ p {
 
 /*----------------ITEMS---------------*/
 
-.item-container{
+.item-container {
 	max-width: 680px;
 	margin: auto;
-  text-align: -webkit-center;
+  text-align: center;
 }
 
 .item-container::after{

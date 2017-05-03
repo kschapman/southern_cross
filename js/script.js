@@ -9,9 +9,9 @@ $(document).ready(function(){
     $('#cart').hide();
   });
 
-  $(".free-range").click(function(){
-    alert("Would you like ")
-  });
+  // $(".free-range").click(function(){
+  //   alert("Would you like ")
+  // });
 
   $(".language-btn-english").click(function(){
     $('.container-maori').show();
