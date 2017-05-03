@@ -34,7 +34,12 @@ p {
 /*-----------------LANDING PAGE----------------*/
 
 .container {
-  text-align: -webkit-center;
+  text-align: center;
+}
+
+.container-maori {
+  text-align: center;
+	display: none;
 }
 
 .home-logo {
@@ -58,6 +63,10 @@ p {
 }
 
 /*-----------------BUTTONS/CART-ICON----------------*/
+
+.menu-btns {
+
+}
 
 .btn {
   color: white;
@@ -143,16 +152,54 @@ p {
 
 /*----------------WAITER---------------*/
 
+.heading-btns {
+}
+
 .waiter {
+	display: inline-block;
+	clear: both;
 }
 
 .waiter-btn {
 	width: 100px;
 	border-radius: 10%;
 	background-color: white;
+	margin-left: auto;
+  margin-right: auto;
+}
+
+.maori {
+	width: 130px;
 }
 
 .waiter-text {
+	text-align: center;
+	color: #ba5549;
+	padding: 8px;
+}
+
+.language {
+	display: inline-block;
+	clear: both;
+}
+
+.language-btn-english {
+	width: 100px;
+	border-radius: 10%;
+	background-color: white;
+	margin-left: auto;
+  margin-right: auto;
+}
+
+.language-btn-maori {
+	width: 100px;
+	border-radius: 10%;
+	background-color: white;
+	margin-left: auto;
+  margin-right: auto;
+}
+
+.language-text {
 	text-align: center;
 	color: #ba5549;
 	padding: 8px;
