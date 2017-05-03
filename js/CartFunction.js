@@ -1,7 +1,7 @@
 var cart = [];
 
 $(document).ready(function(){
-	// localStorage.clear();
+	localStorage.clear();
 	//Check local Storage and if there is something called item then create the list
 	if (localStorage.getItem("items") === null) {
 

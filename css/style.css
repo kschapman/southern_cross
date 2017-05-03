@@ -234,10 +234,47 @@ p {
 	z-index: 10;
 }
 
+#Cart {
+	text-align: left;
+}
+
+#dummyCart {
+	text-align: left;
+}
+
+.order-name {
+	float: left;
+	width: 80%;
+}
+
+.order-price {
+	list-style-type: none;
+	float: left;
+	margin-top: -5px;
+	width: 20%
+}
+
+.remove {
+	height: 15px;
+	width: 15px;
+}
+
 .your-order {
 	text-align: center;
 	color: #ba5549;
 }
+
+.hello {
+	margin: inherit;
+  margin-bottom: -5px;
+}
+
+.order-total {
+	text-align: center;
+	color: #ba5549;
+	height: 40px;
+}
+
 
 .exit {
 	height: 15px;
@@ -255,7 +292,6 @@ p {
   padding: 0%;
   border: 2px solid #ba5549;
   clear: both;
-  position: absolute;
   margin-left: 15%;
   margin-right: 15%;
 
@@ -265,6 +301,32 @@ p {
 	color: #ba5549;
 	margin-top: 12px;
 	text-align: center;
+}
+
+@media only screen and (max-width: 742px) {
+	#cart {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.order-name {
+		width: 70%;
+	}
+
+	.order-price {
+		width: 30%;
+	}
+
+	.hello {
+		margin-top: 60px;
+	}
+
+	.order-small {
+		font-size: 15px;
+	}
 }
 
 /*----------------KEY---------------*/
@@ -303,6 +365,8 @@ p {
     height: 93px;
     margin: 2%;
     padding: 5px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.spacing-vegetarian {
