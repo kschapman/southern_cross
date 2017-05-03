@@ -120,8 +120,13 @@ p {
 
 .buttons {
   max-width: 600px;
-	margin: auto;
+	margin: 0 auto;
   text-align: center;
+}
+
+.menu-display {
+	display: inline-block;
+	margin-bottom: 0px;
 }
 
 .drinks {
@@ -271,6 +276,7 @@ p {
 	padding: 5px;
 	margin-right: 1%;
 	border-radius: 20px;
+	margin: auto;
 	margin-top: 7px;
 }
 
