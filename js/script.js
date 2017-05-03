@@ -23,5 +23,13 @@ $(document).ready(function(){
     $('.container-maori').hide();
   });
 
+  $(".waiter-btn").click(function(){
+    $('#waiter-called').show();
+  });
+
+  $("#waiter-called").click(function(){
+    $('#waiter-called').hide();
+  });
+
 
 });

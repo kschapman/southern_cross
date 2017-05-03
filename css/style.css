@@ -218,6 +218,30 @@ p {
 	padding: 8px;
 }
 
+#waiter-called {
+	height: 100px;
+	width: 200px;
+	background-color: white;
+	border: 2px solid #ba5549;
+	margin: auto;
+	margin-top: 10px;
+	display: none;
+}
+
+.waiter-called-text {
+	text-align: center;
+	padding-top: 15px;
+}
+
+.waiter-called-btn {
+	width: 50px;
+	background-color: #ba5549;
+	color: white;
+	padding: 3px;
+  text-align: center;
+	margin: auto;
+}
+
 /*----------------CART---------------*/
 
 #cart {
