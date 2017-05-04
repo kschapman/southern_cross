@@ -181,8 +181,12 @@ p {
   margin-right: auto;
 }
 
-.maori {
+.waiter-btn-maori {
 	width: 130px;
+	border-radius: 10%;
+	background-color: white;
+	margin-left: auto;
+  margin-right: auto;
 }
 
 .waiter-text {
@@ -226,11 +230,24 @@ p {
 	margin: auto;
 	margin-top: 10px;
 	display: none;
+	z-index: 99;
+}
+
+#waiter-called-maori {
+	height: 100px;
+	width: 200px;
+	background-color: white;
+	border: 2px solid #ba5549;
+	margin: auto;
+	margin-top: 10px;
+	display: none;
+	z-index: 99;
 }
 
 .waiter-called-text {
 	text-align: center;
 	padding-top: 15px;
+	margin-bottom: -5px;
 }
 
 .waiter-called-btn {
@@ -238,6 +255,7 @@ p {
 	background-color: #ba5549;
 	color: white;
 	padding: 3px;
+	padding-top: 6px;
   text-align: center;
 	margin: auto;
 }
@@ -299,7 +317,6 @@ p {
 	height: 40px;
 }
 
-
 .exit {
 	height: 15px;
 	width: 15px;
@@ -318,7 +335,6 @@ p {
   clear: both;
   margin-left: 15%;
   margin-right: 15%;
-
 }
 
 .btn-send-text {

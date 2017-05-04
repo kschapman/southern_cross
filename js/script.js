@@ -27,9 +27,16 @@ $(document).ready(function(){
     $('#waiter-called').show();
   });
 
-  $("#waiter-called").click(function(){
+  $(".waiter-called-btn").click(function(){
     $('#waiter-called').hide();
   });
 
+  $(".waiter-btn-maori").click(function(){
+    $('#waiter-called-maori').show();
+  });
+
+  $(".waiter-called-btn").click(function(){
+    $('#waiter-called-maori').hide();
+  });
 
 });
