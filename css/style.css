@@ -285,23 +285,30 @@ p {
 
 #dummyCart {
 	text-align: left;
+	line-height: 30px;
 }
 
 .order-name {
 	float: left;
-	width: 80%;
+	width: 70%;
 }
 
 .order-price {
 	list-style-type: none;
 	float: left;
-	margin-top: -5px;
 	width: 20%
 }
 
 .remove {
-	height: 15px;
+	list-style-type: none;
+	float: left;
+	margin-top: 3px;
+	width: 10%;
+}
+
+.remove-img {
 	width: 15px;
+	height: 15px;
 }
 
 .your-order {
@@ -310,7 +317,7 @@ p {
 }
 
 .hello {
-	margin: inherit;
+	margin-top: 100px;
   margin-bottom: -5px;
 }
 
@@ -356,11 +363,12 @@ p {
 
 @media only screen and (max-width: 480px) {
 	.order-name {
-		width: 70%;
+		width: 60%;
 	}
 
 	.order-price {
 		width: 30%;
+		text-align: center;
 	}
 
 	.hello {
@@ -369,6 +377,7 @@ p {
 
 	.order-small {
 		font-size: 15px;
+	  margin-top: 145px;
 	}
 }
 
