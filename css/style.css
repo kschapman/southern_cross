@@ -372,6 +372,41 @@ p {
 	}
 }
 
+/*--------------COMPLETE-------------*/
+
+.complete {
+	height: 110px;
+	width: 200px;
+	background-color: white;
+	border: 2px solid #ba5549;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.complete-text {
+	text-align: center;
+	padding-top: 15px;
+	margin-bottom: -5px;
+	color: #ba5549;
+}
+
+.complete-info {
+	line-height: 20px;
+}
+
+.complete-btn {
+	width: 50px;
+	background-color: #ba5549;
+	color: white;
+	padding: 3px;
+	padding-top: 6px;
+  text-align: center;
+	margin: auto;
+	border-radius: 5px;
+	margin-top: 15px;
+}
+
+
 /*----------------KEY---------------*/
 
 .key {

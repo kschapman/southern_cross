@@ -9,9 +9,7 @@ $(document).ready(function(){
     $('#cart').hide();
   });
 
-  // $(".free-range").click(function(){
-  //   alert("Would you like ")
-  // });
+// CALLING WAITER
 
   $(".language-btn-english").click(function(){
     $('.container-maori').show();
@@ -38,5 +36,11 @@ $(document).ready(function(){
   $(".waiter-called-btn").click(function(){
     $('#waiter-called-maori').hide();
   });
+
+//ORDER COMPLETE
+
+$(".complete-btn").click(function(){
+  $('.complete').hide();
+});
 
 });
