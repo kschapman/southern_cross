@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-
+// CART
   $(".cart-icon").click(function(){
     $('#cart').show();
   });
@@ -10,7 +10,6 @@ $(document).ready(function(){
   });
 
 // CALLING WAITER
-
   $(".language-btn-english").click(function(){
     $('.container-maori').show();
     $('.container').hide();
@@ -38,7 +37,6 @@ $(document).ready(function(){
   });
 
 //ORDER COMPLETE
-
 $(".complete-btn").click(function(){
   $('.complete').hide();
 });

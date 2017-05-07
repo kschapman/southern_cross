@@ -16,13 +16,11 @@ body {
   display: table;
   background-position: center left;
   background-image: url(../img/background.jpg); }
-
-a {
-  text-decoration: none;
-  color: white; }
-
-p {
-  margin: 0; }
+  body a {
+    text-decoration: none;
+    color: white; }
+  body p {
+    margin: 0; }
 
 /*-----------------LANDING PAGE----------------*/
 .container {
@@ -50,6 +48,30 @@ p {
 .start-order:hover {
   color: white;
   background-color: #ba5549; }
+
+/*-----------------TABLE NUMBER----------------*/
+.container .table-number {
+  color: #ba5549;
+  background-color: white;
+  font-size: 22px;
+  padding: 15px 5px 10px 5px;
+  width: 260px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto; }
+.container .continue {
+  color: #ba5549;
+  background-color: white;
+  font-size: 22px;
+  padding: 15px 5px 10px 5px;
+  width: 170px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto; }
 
 /*-----------------BUTTONS/CART-ICON----------------*/
 .btn {
