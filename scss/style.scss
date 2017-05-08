@@ -192,6 +192,26 @@ body {
   float: left;
 }
 
+/*-----------------COPYRIGHT----------------*/
+
+footer {
+  position: fixed;
+  bottom: 15px;
+  right: 0;
+  left: 0;
+
+	.education {
+		background-color: white;
+		text-align: center;
+		width: 210px;
+		font-size: 9px;
+		padding: 5px;
+		color: #ba5549;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
 /*----------------WAITER---------------*/
 
 .heading-btns, .container {
@@ -469,14 +489,11 @@ body {
 			}
 
 			.feedback-text {
-				width: 350px;
+				width: 280px;
 			}
 		}
 	}
 }
-
-
-
 
 /*----------------KEY/ITEMS---------------*/
 

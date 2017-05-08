@@ -145,6 +145,22 @@ body {
   margin-top: 9px;
   float: left; }
 
+/*-----------------COPYRIGHT----------------*/
+footer {
+  position: fixed;
+  bottom: 15px;
+  right: 0;
+  left: 0; }
+  footer .education {
+    background-color: white;
+    text-align: center;
+    width: 210px;
+    font-size: 9px;
+    padding: 5px;
+    color: #ba5549;
+    margin-left: auto;
+    margin-right: auto; }
+
 /*----------------WAITER---------------*/
 .heading-btns .waiter, .container .waiter {
   display: inline-block;
@@ -352,7 +368,7 @@ body {
     .container .feedback #comment {
       width: 88%; }
     .container .feedback .feedback-text {
-      width: 350px; } }
+      width: 280px; } }
 
 /*----------------KEY/ITEMS---------------*/
 .item-container {
