@@ -78,9 +78,9 @@ body {
 	.table-number{
 	  color: #ba5549;
 	  background-color: white;
-	  font-size: 22px;
-	  padding: 15px 5px 10px 5px;
-	  width: 260px;
+	  font-size: 20px;
+	  padding: 10px 5px 10px 5px;
+	  width: 235px;
 	  text-align: center;
 	  border-radius: 5px;
 		margin-top: 35px;
@@ -91,14 +91,20 @@ body {
 	.continue{
 		color: #ba5549;
 		background-color: white;
-		font-size: 22px;
-		padding: 15px 5px 10px 5px;
-		width: 170px;
+		font-size: 20px;
+		padding: 10px 5px 10px 5px;
+		width: 160px;
 		text-align: center;
 		border-radius: 5px;
 		margin-top: 35px;
 		margin-left: auto;
 		margin-right: auto;
+	}
+
+	.table-number-form {
+		color: #ba5549;
+		margin-top: 10px;
+		margin-bottom: -20px;
 	}
 
 }
@@ -195,10 +201,13 @@ body {
 /*-----------------COPYRIGHT----------------*/
 
 footer {
-  position: fixed;
-  bottom: 15px;
   right: 0;
   left: 0;
+
+	.copyright {
+		padding-top: 25px;
+		padding-bottom: 15px;
+	}
 
 	.education {
 		background-color: white;
