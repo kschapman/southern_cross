@@ -487,6 +487,8 @@ footer {
     .item-container .btn-add .btn-text {
       color: #ba5549;
       margin-top: 6px; }
+  .item-container .btn-add:active {
+    background-color: #ba5549; }
   .item-container .circle {
     width: 16px;
     height: 16px;
@@ -548,5 +550,3 @@ footer {
   content: '';
   display: block;
   clear: both; }
-
-/*# sourceMappingURL=style.css.map */

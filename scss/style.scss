@@ -625,6 +625,10 @@ footer {
 		}
 	}
 
+	.btn-add:active {
+		background-color: $red;
+	}
+
 	.circle {
 		width: 16px;
 		height: 16px;
