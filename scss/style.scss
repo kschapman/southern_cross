@@ -8,6 +8,13 @@ $green: #aabc72;
 $orange: #f19c27;
 $pink: #ff9999;
 
+@mixin border-radius($radius) {
+		-webkit-border-radius: $radius;
+		-moz-border-radius: $radius;
+		-ms-border-radius: $radius;
+		border-radius: $radius;
+}
+
 @font-face {
 	font-family: Netto;
 	src: url('../fonts/netto_ot.ttf');
@@ -61,7 +68,7 @@ body {
   padding: 15px 5px 10px 5px;
   width: 170px;
   text-align: center;
-  border-radius: 5px;
+  @include border-radius(5px);
 	margin-top: 35px;
 	margin-left: auto;
   margin-right: auto;
@@ -82,7 +89,7 @@ body {
 	  padding: 10px 5px 10px 5px;
 	  width: 235px;
 	  text-align: center;
-	  border-radius: 5px;
+	  @include border-radius(5px);
 		margin-top: 35px;
 		margin-left: auto;
 	  margin-right: auto;
@@ -95,7 +102,7 @@ body {
 		padding: 10px 5px 10px 5px;
 		width: 160px;
 		text-align: center;
-		border-radius: 5px;
+		@include border-radius(5px);
 		margin-top: 35px;
 		margin-left: auto;
 		margin-right: auto;
@@ -117,7 +124,7 @@ body {
   padding: 15px 5px 10px 5px;
   width: 170px;
   text-align: center;
-  border-radius: 5px;
+  @include border-radius(5px);
   box-shadow: 2px 2px 2px #888888;
   margin: 20px;
 }
@@ -232,7 +239,7 @@ footer {
 
 	.waiter-btn {
 		width: 100px;
-		border-radius: 10%;
+		@include border-radius(10%);
 		background-color: white;
 		margin-left: auto;
 	  margin-right: auto;
@@ -251,7 +258,7 @@ footer {
 
 	.language-btn-english {
 		width: 100px;
-		border-radius: 10%;
+		@include border-radius(10%);
 		background-color: white;
 		margin-left: auto;
 	  margin-right: auto;
@@ -265,7 +272,7 @@ footer {
 
 	.waiter-btn-maori {
 		width: 130px;
-		border-radius: 10%;
+		@include border-radius(10%);
 		background-color: white;
 		margin-left: auto;
 	  margin-right: auto;
@@ -273,7 +280,7 @@ footer {
 
 	.language-btn-maori {
 		width: 100px;
-		border-radius: 10%;
+		@include border-radius(10%);
 		background-color: white;
 		margin-left: auto;
 	  margin-right: auto;
@@ -459,7 +466,7 @@ footer {
 			padding-top: 6px;
 			text-align: center;
 			margin: auto;
-			border-radius: 5px;
+			@include border-radius(5px);
 			margin-top: 15px;
 		}
 	}
@@ -517,7 +524,7 @@ footer {
 		width: 577px;
 		padding: 5px;
 		margin-right: 1%;
-		border-radius: 20px;
+		@include border-radius(20px);
 		margin: auto;
 		margin-top: 7px;
 
@@ -566,7 +573,7 @@ footer {
 		padding: 1%;
 		padding-top: 12px;
 		padding-bottom: 12px;
-		border-radius: 5%;
+		@include border-radius(5%);
 		position: relative;
 	}
 
@@ -621,7 +628,7 @@ footer {
 	.circle {
 		width: 16px;
 		height: 16px;
-		border-radius: 50%;
+		@include border-radius(50%);
 		float: left;
 		margin-left: 5px;
 	  margin-bottom: 5px;
@@ -654,7 +661,7 @@ footer {
 	.inner-circle {
 		width: 8px;
 		height: 8px;
-		border-radius: 50%;
+		@include border-radius(50%);
 		float: left;
 		margin-left: 3px;
 		margin-top: 3px;
