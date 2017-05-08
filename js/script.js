@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-// CART
+//CART
   $(".cart-icon").click(function(){
     $('#cart').show();
   });
