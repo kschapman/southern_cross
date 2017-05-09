@@ -271,6 +271,10 @@ footer {
 #Cart {
   text-align: left; }
 
+#Cart li {
+  list-style-type: none;
+  padding-bottom: 10px; }
+
 #dummyCart {
   text-align: left;
   line-height: 30px; }
@@ -287,8 +291,7 @@ footer {
 .remove {
   list-style-type: none;
   float: left;
-  margin-top: 3px;
-  width: 10%; }
+  margin-right: 15px; }
 
 .remove-img {
   width: 15px;
@@ -550,3 +553,5 @@ footer {
   content: '';
   display: block;
   clear: both; }
+
+/*# sourceMappingURL=style.css.map */
